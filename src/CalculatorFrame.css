@@ -1,0 +1,12 @@
+
+.frame {
+    margin: 100px auto;
+    border: solid 1px black;
+    width: 800px;
+    height: 600px;
+    padding: 10px;
+}
+
+.frame > * {
+    border-radius: 15px;
+}

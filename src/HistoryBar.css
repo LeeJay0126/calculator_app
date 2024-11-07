@@ -1,0 +1,23 @@
+
+.HistoryBar {
+    border: 1px black solid;
+    display: flex;
+    align-items:last baseline;
+    justify-content: space-between;
+    width: 300px;
+    height: 80px;
+    color: red;
+    padding: 0 15px;
+}
+
+.HistoryHeader {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.HistoryDropdown {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
