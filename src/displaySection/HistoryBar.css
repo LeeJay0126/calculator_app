@@ -2,7 +2,7 @@
 .HistoryBar {
     border: 1px black solid;
     display: flex;
-    align-items:last baseline;
+    align-items: center;
     justify-content: space-between;
     width: 300px;
     height: 80px;

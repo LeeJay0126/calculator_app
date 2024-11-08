@@ -1,5 +1,5 @@
 import './App.css';
-import CalculatorFrame from './CalculatorFrame';
+import CalculatorFrame from './displaySection/CalculatorFrame';
 
 function App() {
   return (

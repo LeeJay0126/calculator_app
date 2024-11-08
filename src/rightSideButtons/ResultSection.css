@@ -1,0 +1,40 @@
+
+.ResultSection {
+    width: 450px;
+    border: 1px solid;
+    box-shadow: 1px;
+    margin: 0 auto;
+    background: linear-gradient(0deg, rgb(57, 57, 59) 2%, rgb(67, 67, 71) 30%);
+    height: 80px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.SubDisplaySection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DisplayResult {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: end;
+    color: white;
+}
+
+.DisplayDivider {
+    border: 1px solid white;
+    opacity: 0.1;
+    margin-bottom: 5px;
+}
+
+.measureAngle {
+    color: rgb(104, 103, 103);
+    font-size: 14px;
+}
+
+.FormulationDisplay {
+    color: rgb(0, 217, 255);
+}
+
+

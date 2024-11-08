@@ -1,6 +1,7 @@
 import "./CalculatorFrame.css";
 import HistoryBar from "./HistoryBar";
-import LeftSide from "./LeftSide";
+import LeftSide from "../leftSideButtons/LeftSide";
+import RightSide from "../rightSideButtons/RightSide";
 
 const CalculatorFrame = () => {
 
@@ -9,6 +10,9 @@ const CalculatorFrame = () => {
             <section className="left">
                 <HistoryBar />
                 <LeftSide/>
+            </section>
+            <section className="right">
+                <RightSide/>
             </section>
         </div>
     );

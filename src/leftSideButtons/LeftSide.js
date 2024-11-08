@@ -1,4 +1,4 @@
-import LeftSideButtons from "./leftSideButtons/LeftSideButtons";
+import LeftSideButtons from "./LeftSideButtons";
 import LeftSideButtonComponents from "./LeftSideComponents";
 import "./LeftSide.css";
 
