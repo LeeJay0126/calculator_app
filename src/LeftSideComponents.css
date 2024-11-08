@@ -1,0 +1,13 @@
+
+.LSBCButton {
+    cursor: pointer;
+    width: 70px;
+    height: 65px;
+    margin-top: 15px;
+    
+    background: linear-gradient( 180deg, rgb(80, 80, 88) 0%, rgb(51, 51, 54) 35%);
+    color: white;
+    box-shadow: 1px;
+    font-size: 18px;
+    border-radius: 5px;
+}

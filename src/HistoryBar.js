@@ -1,7 +1,7 @@
 import "./HistoryBar.css";
 import { FaArrowDownShortWide } from "react-icons/fa6";
 
-
+// Drop down menu with history records to be added later
 const HistoryBar = () => {
 
     return (

@@ -1,11 +1,15 @@
 import "./CalculatorFrame.css";
 import HistoryBar from "./HistoryBar";
+import LeftSide from "./LeftSide";
 
 const CalculatorFrame = () => {
 
     return (
         <div className="frame">
-            <HistoryBar/>
+            <section className="left">
+                <HistoryBar />
+                <LeftSide/>
+            </section>
         </div>
     );
 };

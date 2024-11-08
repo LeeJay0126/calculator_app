@@ -5,8 +5,11 @@
     width: 800px;
     height: 600px;
     padding: 10px;
+    display: flex;
+    background: linear-gradient(180deg, rgb(43, 43, 46) 0%, rgb(31, 31, 32) 35%);
 }
 
 .frame > * {
     border-radius: 15px;
 }
+
