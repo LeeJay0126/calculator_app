@@ -2,3 +2,33 @@
 .RightSide {
     width: 500px;
 }
+
+.RSBDivider {
+    width: 475px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.RightButtonsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.RSBDiv {
+    width: 400px;
+}
+
+.FifthRow {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.LastRow {
+    grid-template-columns: 2fr 1fr;
+}
+
+.ResultButtonContainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}

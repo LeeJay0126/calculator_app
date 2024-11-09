@@ -5,7 +5,7 @@ import "./LeftSide.css";
 const LeftSide = () => {
 
     const res = LeftSideButtons.map((buttons) => (
-        <LeftSideButtonComponents value={buttons} />
+        <LeftSideButtonComponents value={buttons} key={buttons} />
     ));
 
     return (

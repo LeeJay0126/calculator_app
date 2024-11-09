@@ -1,0 +1,13 @@
+
+.ResultButton {
+    border-radius: 5px;
+    cursor:pointer;
+    margin-top: 15px;
+
+    color: white;
+    box-shadow: 1px;
+    font-size: 18px;
+    height: auto;
+    
+    background: linear-gradient( 180deg, rgb(177, 105, 12) 0%, rgb(236, 138, 9) 35%);
+}
