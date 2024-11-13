@@ -1,4 +1,3 @@
-
 .RightSide {
     width: 500px;
 }
@@ -18,14 +17,18 @@
 
 .RSBDiv {
     width: 400px;
+    margin-right: -20px;
 }
+
 
 .FifthRow {
     grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
 }
 
 .LastRow {
     grid-template-columns: 2fr 1fr;
+    width: 90%;
 }
 
 .ResultButtonContainer {

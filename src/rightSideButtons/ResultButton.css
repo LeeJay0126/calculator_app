@@ -8,6 +8,7 @@
     box-shadow: 1px;
     font-size: 18px;
     height: auto;
+    width: 100px;
     
     background: linear-gradient( 180deg, rgb(177, 105, 12) 0%, rgb(236, 138, 9) 35%);
 }
