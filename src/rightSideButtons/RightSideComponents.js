@@ -4,10 +4,13 @@ import { useContext } from "react";
 
 const RightSideComponents = (props) => {
 
-    const {display, setDisplay} = useContext(DisplayContext);
+    const { display, setDisplay } = useContext(DisplayContext);
 
     const RSCButtonHandler = () => {
-        setDisplay(display + props.value);
+        const char = props.value.charCodeAt();
+        if (char > 47 && char < 58) {
+            setDisplay(display + props.value);
+        }
     };
 
     return (
