@@ -20,6 +20,7 @@
     font-weight: 500;
     text-align: end;
     color: white;
+    min-height: 42px;
 }
 
 .DisplayDivider {

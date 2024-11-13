@@ -1,11 +1,15 @@
 import "./ResultSection.css";
+import { DisplayContext } from "../components/DisplayContext";
+import { useContext } from "react";
 
 const ResultSection = () => {
 
-    return(
+    const { display} = useContext(DisplayContext);
+
+    return (
         <section className="ResultSection">
             <h3 className="DisplayResult">
-                PlaceHolder 123
+                {display}
             </h3>
             <div className="DisplayDivider"></div>
             <div className="SubDisplaySection">
