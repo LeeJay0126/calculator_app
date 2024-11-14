@@ -1,10 +1,12 @@
 import "./ResultSection.css";
 import { DisplayContext } from "../components/DisplayContext";
+import { ResultContext } from "../components/ResultContext";
 import { useContext } from "react";
 
 const ResultSection = () => {
 
-    const { display} = useContext(DisplayContext);
+    const { display } = useContext(DisplayContext);
+    const { result } = useContext(ResultContext);
 
     return (
         <section className="ResultSection">
@@ -17,7 +19,7 @@ const ResultSection = () => {
                     Rad
                 </h4>
                 <h4 className="FormulationDisplay">
-                    96 x 14 = 1344
+                    {result}
                 </h4>
             </div>
         </section>
