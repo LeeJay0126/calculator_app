@@ -15,36 +15,35 @@ const RightSideComponents = (props) => {
     const RSCButtonHandler = () => {
         const char = props.value.charCodeAt();
         const val = props.value;
-        if (char > 41 && char < 58) {
+        // for +/-
+        if (result != "") {
+            if (result[0] != "-") {
+                setResult("-" + result);
+                setDisplay("-" + display);
+            } else {
+                setResult(result.subString(1));
+                setDisplay(display.subString(1));
+            }
+        } else if (char > 41 && char < 58) {
             setDisplay(display + props.value);
             setResult(result + props.value);
         } else {
-            if (val == 'c') {
+            if (val === 'c') {
                 setDisplay("");
                 setResult("");
-            } else if (val == "mc") {
+            } else if (val === "mc") {
                 setMemory(0);
                 setPrevResult(0);
-            } else if (val == "m+") {
+            } else if (val === "m+") {
                 setResult(result + memory);
                 setDisplay(display + memory);
-            } else if(val == "m-") {
-                if(memory != 0) {
+            } else if (val === "m-") {
+                if (memory != 0) {
                     setDisplay(display + "-" + memory);
                     setResult(result + "-" + memory);
                 }
-            // for +/- button
-            }else {
-                if(result != ""){
-                    if(result[0] != "-"){
-                        setResult("-" + result);
-                        setDisplay("-" + display);
-                    }else{
-                        setResult(result.subString(1));
-                        setDisplay(display.subString(1));
-                    }
-                }
-            }
+                // for +/- button
+            } 
         }
     };
 
